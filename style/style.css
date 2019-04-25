@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+#analogWatch {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 10%;
+}
+
+#divHour,
+#divMinute,
+#divSecond {
+  background-color: #333;
+  position: relative;
+  width: 1px;
+  left: 50%;
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+#divHour {
+  height: 50px;
+  width: 5px;
+  top: 50px;
+}
+
+#divMinute {
+  height: 70px;
+  width: 3px;
+  top: -20px;
+  background-color: blue;
+}
+
+#divSecond {
+  height: 90px;
+  top: -110px;
+  background-color: red;
+}
+
+.DigitalWatch {
+  width: 200px;
+  height: 20px;
+  border: 1px dashed #000;
+  text-align: center;
+}
+
+.DigitalWatch #divTime {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
